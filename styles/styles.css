@@ -4,6 +4,8 @@ body {
   min-height: 100vh;
 }
 
+/* top header */
+
 header{
   background-color: rgb(40, 134, 153);
   padding: 10px 100px 50px 100px;
@@ -52,4 +54,48 @@ h1 {
   color: white;
   font-weight: 700;
   cursor: pointer;
+}
+
+/* random info */
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card img{
+  border: solid 2px rgb(70, 170, 237);
+  border-radius: 20px;
+
+}
+
+/*part 3*/
+.part-3{
+  background-color: lightgray;
+  padding: 200px;
+  font-size: 40px;
+}
+
+.cout{
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 80%;
 }
