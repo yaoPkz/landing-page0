@@ -6,7 +6,7 @@ body {
 
 /* top header */
 
-header{
+header , footer{
   background-color: rgb(40, 134, 153);
   padding: 10px 100px 50px 100px;
   color: white;
@@ -46,7 +46,7 @@ h1 {
 
 }
 
-.header-mid button{
+button{
   border: 0px;
   padding: 10px 30px;
   border-radius: 10px;
@@ -98,4 +98,35 @@ section {
   font-size: 30px;
   font-weight: bold;
   margin-left: 80%;
+}
+
+/*part 4*/
+.sign-up{
+  padding: 200px;
+  color: white;
+}
+
+.blue-part{
+  border-radius: 10px;
+  padding: 30px 100px;
+  background-color: rgb(70, 170, 237);
+}
+
+.big-p{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.blue-part p{
+  margin: 50px 50px;
+}
+
+.sign-up button{
+  border: solid 2px white;
+  margin-left: 120px;
+}
+/*part 5*/
+
+footer{
+  text-align: center;
 }
